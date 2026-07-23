@@ -5,13 +5,13 @@ import FeaturesBento from '@/components/sections/features/FeaturesBento';
 import HeroBrand from '@/components/sections/hero/HeroBrand';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
 import TestimonialColumnMarqueeCards from '@/components/sections/testimonial/TestimonialColumnMarqueeCards';
-import { Coffee, Utensils, Wifi, Smartphone, Laptop, Globe } from "lucide-react";
+import { Wifi, Smartphone, Laptop, Globe, Utensils, Coffee } from 'lucide-react';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
 export default function HomePage() {
   return (
     <>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" data-webild-component="HeroBrand" data-webild-component-path="@/components/sections/hero/HeroBrand">
         <SectionErrorBoundary name="hero">
           <HeroBrand
             brand="Hotel Tbilisi Tower"
@@ -24,7 +24,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" data-webild-component="AboutMediaOverlay" data-webild-component-path="@/components/sections/about/AboutMediaOverlay">
         <SectionErrorBoundary name="about">
           <AboutMediaOverlay
             tag="Our Story"
@@ -36,7 +36,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="amenities" data-section="amenities">
+      <div id="amenities" data-section="amenities" data-webild-component="FeaturesBento" data-webild-component-path="@/components/sections/features/FeaturesBento">
         <SectionErrorBoundary name="amenities">
           <FeaturesBento
             tag="Key Amenities"
@@ -51,8 +51,7 @@ export default function HomePage() {
                 ]
               },
               {
-                title: "Stay Connected",                description: "High-speed Wi-Fi available throughout the premises.",                bentoComponent: "orbiting-icons",                centerIcon: Wifi,
-                orbitIcons: [Smartphone, Laptop, Globe]
+                title: "Stay Connected",                description: "High-speed Wi-Fi available throughout the premises.",                bentoComponent: "orbiting-icons",                centerIcon: "Wifi",                orbitIcons: ["Smartphone", "Laptop", "Globe"]
               },
               {
                 title: "Dining Excellence",                description: "Enjoy fresh, local, and international cuisine.",                bentoComponent: "info-card-marquee",                infoCards: [
@@ -66,7 +65,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="metrics" data-section="metrics">
+      <div id="metrics" data-section="metrics" data-webild-component="MetricsSimpleCards" data-webild-component-path="@/components/sections/metrics/MetricsSimpleCards">
         <SectionErrorBoundary name="metrics">
           <MetricsSimpleCards
             tag="Statistics"
@@ -82,7 +81,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="testimonials" data-section="testimonials">
+      <div id="testimonials" data-section="testimonials" data-webild-component="TestimonialColumnMarqueeCards" data-webild-component-path="@/components/sections/testimonial/TestimonialColumnMarqueeCards">
         <SectionErrorBoundary name="testimonials">
           <TestimonialColumnMarqueeCards
             tag="Guest Voices"
@@ -100,7 +99,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="faq" data-section="faq">
+      <div id="faq" data-section="faq" data-webild-component="FaqTwoColumn" data-webild-component-path="@/components/sections/faq/FaqTwoColumn">
         <SectionErrorBoundary name="faq">
           <FaqTwoColumn
             tag="Support"
@@ -116,7 +115,7 @@ export default function HomePage() {
         </SectionErrorBoundary>
       </div>
 
-      <div id="contact" data-section="contact">
+      <div id="contact" data-section="contact" data-webild-component="ContactCta" data-webild-component-path="@/components/sections/contact/ContactCta">
         <SectionErrorBoundary name="contact">
           <ContactCta
             tag="Reservations"
