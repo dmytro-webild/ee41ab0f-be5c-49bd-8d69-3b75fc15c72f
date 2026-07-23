@@ -38,7 +38,7 @@ export default function Layout() {
             },
             {
               title: "Support",              items: [
-                { label: "FAQ", href: "#" },
+                { label: "FAQ", href: "#faq" },
                 { label: "Privacy Policy", href: "#" }
               ]
             }
