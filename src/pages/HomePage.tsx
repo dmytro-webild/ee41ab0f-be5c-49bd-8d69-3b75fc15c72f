@@ -24,7 +24,7 @@ export default function HomePage() {
         text: "View Amenities",
         href: "#amenities",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg?_wi=1"
       textAnimation="fade-blur"
     />
     </SectionErrorBoundary>
@@ -36,7 +36,7 @@ export default function HomePage() {
       tag="Our Story"
       title="Unmatched Comfort in Tbilisi"
       description="Located at Agmashenebeli Alley, Tbilisi Tower combines luxury with accessibility. Whether you are here for sightseeing or business, our hotel provides the perfect home base with refined interiors and attentive service."
-      imageSrc="http://img.b2bpic.net/free-photo/elegant-wedding-ceremony-venue-with-floral-decorations_23-2151976686.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/elegant-wedding-ceremony-venue-with-floral-decorations_23-2151976686.jpg?_wi=1"
       textAnimation="slide-up"
     />
     </SectionErrorBoundary>
@@ -64,7 +64,7 @@ export default function HomePage() {
               imageSrc: "http://img.b2bpic.net/free-photo/spa-decoration-wood-background_1150-6743.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg?_wi=2",
           imageAlt: "indoor swimming pool hotel",
         },
         {
@@ -77,7 +77,7 @@ export default function HomePage() {
             "Laptop",
             "Globe",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/elegant-wedding-ceremony-venue-with-floral-decorations_23-2151976686.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/elegant-wedding-ceremony-venue-with-floral-decorations_23-2151976686.jpg?_wi=2",
           imageAlt: "indoor swimming pool hotel",
         },
         {
@@ -96,7 +96,7 @@ export default function HomePage() {
               value: "On-Site",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-backpack-map-camera_23-2147847022.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-backpack-map-camera_23-2147847022.jpg?_wi=1",
           imageAlt: "indoor swimming pool hotel",
         },
       ]}
@@ -141,7 +141,7 @@ export default function HomePage() {
           name: "Anna V.",
           role: "Traveler",
           quote: "Fantastic location and the indoor pool is perfect.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-backpack-map-camera_23-2147847022.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-backpack-map-camera_23-2147847022.jpg?_wi=2",
         },
         {
           name: "David M.",
