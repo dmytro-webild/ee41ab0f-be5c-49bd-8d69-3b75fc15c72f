@@ -134,7 +134,7 @@ export default function HomePage() {
             columns={[
               { title: "Location", items: [{ label: "Agmashenebeli Alley 7th km" }, { label: "Tbilisi, 0131" }] },
               { title: "Support", items: [{ label: "FAQ" }, { label: "Privacy Policy" }] }
-            ],
+            ]}
             leftText="© 2025 Hotel Tbilisi Tower. All rights reserved."
             rightText="Designed with hospitality in mind."
           />
