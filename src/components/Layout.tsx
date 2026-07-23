@@ -20,7 +20,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
           logo="Tbilisi Tower"
-          ctaButton={{ text: "Book Now", href: "#" }}
+          ctaButton={{ text: "Book Now", href: "#contact" }}
           navItems={navItems}
         />
       </SectionErrorBoundary>
