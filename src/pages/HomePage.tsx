@@ -5,6 +5,7 @@ import FeaturesBento from '@/components/sections/features/FeaturesBento';
 import HeroBrand from '@/components/sections/hero/HeroBrand';
 import MetricsSimpleCards from '@/components/sections/metrics/MetricsSimpleCards';
 import TestimonialColumnMarqueeCards from '@/components/sections/testimonial/TestimonialColumnMarqueeCards';
+import FooterBasic from '@/components/sections/footer/FooterBasic';
 import { Wifi, Smartphone, Laptop, Globe, Utensils, Coffee } from 'lucide-react';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
@@ -123,6 +124,19 @@ export default function HomePage() {
             primaryButton={{ text: "Call 599 81 88 88", href: "tel:599818888" }}
             secondaryButton={{ text: "Email Us", href: "mailto:info@tbilisitower.ge" }}
             textAnimation="slide-up"
+          />
+        </SectionErrorBoundary>
+      </div>
+
+      <div id="footer" data-section="footer" data-webild-component="FooterBasic" data-webild-component-path="@/components/sections/footer/FooterBasic">
+        <SectionErrorBoundary name="footer">
+          <FooterBasic
+            columns={[
+              { title: "Location", items: [{ label: "Agmashenebeli Alley 7th km" }, { label: "Tbilisi, 0131" }] },
+              { title: "Support", items: [{ label: "FAQ" }, { label: "Privacy Policy" }] }
+            ]}
+            leftText="© 2025 Hotel Tbilisi Tower. All rights reserved."
+            rightText="Designed with hospitality in mind."
           />
         </SectionErrorBoundary>
       </div>
