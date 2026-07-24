@@ -5,12 +5,12 @@ import React from 'react';
 import FeaturesBento from '@/components/sections/features/FeaturesBento';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function AmenitiesSection(): React.JSX.Element {
+export default function homeSection(): React.JSX.Element {
   return (
     <div id="amenities" data-section="amenities" data-webild-component="FeaturesBento" data-webild-component-path="@/components/sections/features/FeaturesBento">
             <SectionErrorBoundary name="amenities">
               <FeaturesBento
-                tag="Key Amenities"
+                tag="Key home"
                 title="Everything for Your Stay"
                 description="Relax and recharge with our high-end facilities tailored for your convenience."
                 features={[
