@@ -10,13 +10,13 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero" data-webild-component="HeroBrand" data-webild-component-path="@/components/sections/hero/HeroBrand">
             <SectionErrorBoundary name="hero">
               <HeroBrand
-                brand="Hotel Tbilisi Tower"
-                description="Experience premium 4-star comfort in the heart of the Vake-Sabhurtalo district. Elegance, convenience, and Georgian hospitality await."
-                primaryButton={{ text: "Check Availability", href: "#" }}
-                secondaryButton={{ text: "View Amenities", href: "#amenities" }}
-                imageSrc="http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg"
-                textAnimation="fade-blur"
-              />
+        brand="Hotel Tbilisi Tower"
+        description="Experience premium 4-star comfort in the heart of the Vake-Sabhurtalo district. Elegance, convenience, and Georgian hospitality await."
+        primaryButton={{"href":"#contact","text":"Check Availability"}}
+        secondaryButton={{ text: "View Amenities", href: "#amenities" }}
+        imageSrc="http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg"
+        textAnimation="fade-blur"
+      />
             </SectionErrorBoundary>
           </div>
   );
