@@ -13,7 +13,7 @@ export default function HeroSection(): React.JSX.Element {
         brand="Hotel Tbilisi Tower"
         description="Experience premium 4-star comfort in the heart of the Vake-Sabhurtalo district. Elegance, convenience, and Georgian hospitality await."
         primaryButton={{"href":"#contact","text":"Check Availability"}}
-        secondaryButton={{ text: "View Amenities", href: "#amenities" }}
+        secondaryButton={{ text: "View home", href: "#amenities" }}
         imageSrc="http://img.b2bpic.net/free-photo/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18751.jpg"
         textAnimation="fade-blur"
       />
